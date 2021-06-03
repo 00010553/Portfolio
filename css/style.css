@@ -1,0 +1,228 @@
+:root{
+    --orange: #08101DFF;
+}
+
+
+/* Обнуление стилей */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+/* ОБШИЕ СТИЛИ   */
+.gen-titles {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--orange);
+    margin-bottom: 0;
+}
+
+.gen-subtitle{    
+    font-size: 14px;
+    color: #1f2c33;
+    width: 536px;
+    margin: 23px auto 29px;
+    line-height: 20px;
+}
+
+.gen-title-line{
+    width: 134px;
+    height: 1px;
+    background: #d7d7d7;
+    margin: 0 auto;
+}
+
+/* ///////////////////////////////////////////////// */
+
+
+.header {
+    background: var(--orange);
+}
+
+.header .nav {
+    background: #fff;
+    padding: 25px 0;
+}
+
+.header .navbar {
+    padding: 0;
+}
+
+.header .navbar .nav-link {
+    font-size: 14px;
+    color: #1f2c33;
+    padding: 11px 17px;
+}
+
+.header .navbar .nav-link:hover {
+    font-size: 14px;
+    color: #08101DFF;
+    padding: 11px 17px;
+}
+
+.header .navbar-brand {
+    color: var(--orange);
+    transition: 0.3s;
+}
+
+.header .navbar-brand:hover{
+    color:rgb(145, 157, 177);
+}
+
+.header .navbar .active .nav-link {
+    background: var(--orange);
+    border-radius: 5px;
+    color: #fff;
+} 
+
+.header-text {
+    padding: 280px 0 260px;
+}
+.header-title{
+    font-size: 50px;
+}
+
+.header-subtitle {
+    font-size: 14px;
+    width: 563px;
+    margin: 30px auto;
+    line-height: 25px;
+}
+.header-btn{
+    font-size: 14px;
+    padding: 17px 50px;
+    border-radius: 10px;
+}
+.services .gen-title{
+    padding: 100px 0;
+}
+
+.services .items .fa{
+    font-size: 50px;
+    color: #000;
+}
+
+.services .items-title {
+    font-size: 25px;
+    color: var(--orange);
+    margin: 19px 0;
+}
+
+
+.services .items:hover .items-title{
+    color: #ccc;
+}
+
+
+.services .items-text{
+    font-size: 14px;
+    color: #1f2c33;
+    line-height: 21px;
+}
+
+.pricing .gen-title{
+    padding: 100px 0;
+}
+
+.pricing .cards{
+    border: 1px solid #ebebeb;
+    padding-bottom: 50px;
+    transition: 0.3s;
+}
+
+.pricing .cards:hover{
+    border: 1px solid var(--orange);
+}
+
+.pricing .cards .tarif{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2c33;
+    padding: 32px 0;
+    margin-bottom: 0;
+}
+
+.pricing .cards .price{
+    font-size: 45px;
+    font-weight: 600;
+    color: #1f2c33;
+    padding: 30px 0;
+    margin-bottom: 0;
+    background: #ebebeb;
+    transition: 0.3s;
+}
+
+.pricing .cards:hover .price{
+    background: var(--orange);
+    color: #fff;
+}
+
+
+.pricing .cards .price span{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pricing .card-menu{
+    padding: 50px 0;
+}
+
+.pricing .card-menu .menu-list{
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 31px;
+}
+
+.pricing .card-btn{
+    font-size: 14px;
+    color:#fff;
+    padding: 11px 24px;
+    border-radius: 5px;
+    background: var(--orange);
+}
+
+.pricing .card-btn:hover{
+    font-size: 14px;
+    color:#fff;
+    padding: 11px 24px;
+    border-radius: 5px;
+    background: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.projects .gen-title{
+    padding: 100px 0;
+}
+
+.contact .gen-title{
+    padding: 100px 0;
+}
+
+.contact .input, .input-text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #1f2c33;
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.contact .input:focus, .input-text:focus{
+    outline: none;
+    border: 1px solid var(--orange);
+}
+
+.contact .input-text{
+    resize: none;
+    height: 295px;
+}
